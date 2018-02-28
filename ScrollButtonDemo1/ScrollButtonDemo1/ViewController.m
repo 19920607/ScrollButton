@@ -43,9 +43,9 @@
     [self.view addSubview:label];
 }
 
--(void)BaseScrollViewSegmentBtnSelectAction:(BaseButton *)button andView:(id)view{
+-(void)BaseScrollViewSegmentBtnSelectAction:(BaseButton *)button andScrollView:(BaseScrollView *)scrollView{
     
-    NSInteger tag = [view tag];
+    NSInteger tag = scrollView.tag;
     NSString *currentText = nil;
     
     if(tag == 0){

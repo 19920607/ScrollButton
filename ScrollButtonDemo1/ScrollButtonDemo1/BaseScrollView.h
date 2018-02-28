@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "BaseButton.h"
 
+@class BaseScrollView;
 @protocol BaseScrollViewDelegate<NSObject>
 
 @optional
 
 /**分段按钮的代理事件**/
--(void)BaseScrollViewSegmentBtnSelectAction:(BaseButton*)button andView:(id)view;
+-(void)BaseScrollViewSegmentBtnSelectAction:(BaseButton*)button andScrollView:(BaseScrollView*)scrollView;
 
 @end
 @interface BaseScrollView : UIScrollView
@@ -36,8 +37,7 @@ typedef NS_ENUM(NSUInteger, BtnWidthFitMode) {
 /**按钮宽度,如果大于0，按钮会强制使用这个宽度，就是适应模式会失效**/
 @property CGFloat btnWidth;
 
-
-
+/**创建**/
 -(instancetype)initWithFrame:(CGRect)frame andnameArray:(NSArray*)nameArray andIdArray:(NSArray*)idArray;
 
 @end
