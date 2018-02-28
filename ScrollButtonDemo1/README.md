@@ -20,7 +20,7 @@
 ```Objective-C
 -(void)BaseScrollViewSegmentBtnSelectAction:(BaseButton *)button andView:(id)view{
     
-    
+    //do something
 }
 ```
 具体可以下载demo查看，谢谢
