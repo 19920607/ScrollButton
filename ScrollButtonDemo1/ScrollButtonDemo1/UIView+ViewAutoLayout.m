@@ -3,7 +3,7 @@
 //  ProductModifier
 //
 //  Created by 叶文宇 on 2017/6/24.
-//  Copyright © 2017年 优珥格. All rights reserved.
+//  Copyright © 2017年 . All rights reserved.
 //
 
 #define CGRectMakeWidthLocation(location,width,height) CGRectMake(location.x, location.y, width, height)
