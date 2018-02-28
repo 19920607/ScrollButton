@@ -148,6 +148,7 @@ typedef NS_ENUM(NSUInteger, BtnWidthFitMode) {
 ```
 &emsp;&emsp;难点还是按钮布局的逻辑，不过也不是太难，只要累加按钮的width就能计算出按钮的正确位置。
 &emsp;&emsp;介绍到这里吧，具体可以下载demo查看，如有错漏请指正，谢谢
+
 &emsp;&emsp;简书地址:[小点草](https://www.jianshu.com/u/c6ae89bfef25) 
 
 
